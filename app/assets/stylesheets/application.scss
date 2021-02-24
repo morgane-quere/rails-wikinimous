@@ -1,0 +1,35 @@
+@import "bootstrap/scss/bootstrap";
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #413c69;
+  padding: 20px;
+  margin-bottom: 30px;
+  a {
+    color: white;    
+  }
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+ul{
+  padding-left: 0px;
+}
+
+li{
+  list-style-type: none;  
+  margin-bottom: 16px;
+}
+
+a {
+  color: #413c69;  
+}
+
+a:hover{
+    color: #0c0722;
+    text-decoration: none;
+  }
